@@ -3,7 +3,10 @@
 }
 
 @media only screen and (max-width: 400px) {
-  background
+  .wrapper {
+    background-color: yellow;  
+  }
+  
 } 
 
 
