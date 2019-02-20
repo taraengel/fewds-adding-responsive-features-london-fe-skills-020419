@@ -69,7 +69,7 @@
     float: none;
   }
   .border-right {
-    border: none;
+    border: 0;
   }
 }
 
