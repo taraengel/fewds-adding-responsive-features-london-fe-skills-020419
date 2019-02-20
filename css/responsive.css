@@ -44,7 +44,23 @@
   }
 }
 
-@media only screens and (max-width: 750px)
+@media only screens and (max-width: 750px) {
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  
+  col-3 p {
+   -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted #ccc;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 1; 
+  }
+}
 
 
 
